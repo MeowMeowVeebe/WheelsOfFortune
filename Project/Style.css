@@ -1,0 +1,184 @@
+.Im_am_good_guys{
+display: flex;
+
+
+height: 700px;
+width: 500px;
+background-color: aliceblue;
+ margin: 0 auto;
+ justify-content: center;
+ align-items: center;
+ margin-top: 130px
+
+}
+
+#titleofgame{
+  display: flex;
+    z-index: 10;
+    font-size: 70px;
+    position: absolute;
+    width: 500px;
+    
+    left: -200px;
+
+    top: -490px;
+color: rgb(254, 246, 246);
+}
+
+#Soyuz {
+    background-color: rgb(85, 85, 85);
+
+    margin-bottom: auto;
+}
+
+#Main_Page {
+
+height: 100px;
+width: 100px;
+z-index: 2;
+position: relative;
+bottom: -100px;
+left: 350px }
+
+#Start{
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+
+position: relative;
+border-radius: 1px;
+padding: 50px 100px;
+height: 5%;
+z-index: 2;
+ bottom: -20%; 
+ left: 36%; 
+ 
+
+
+
+
+}
+
+#truth {
+position: relative;
+top: 180px;
+left: -16px;
+}
+
+#Stand{
+
+position: relative;
+    height: 450px;
+    width: 450px;
+ bottom: -400px;
+
+left: 80px;
+    transform: translate(-50%, -50%); 
+      
+}
+
+.front
+{
+    position:absolute;
+z-index: 1;}
+
+#MovingArrow{
+  
+    margin: auto;
+    height:50px;
+ width: 170px;
+
+ transform: translate(-50%, -50%); 
+bottom: 1000px;
+}
+
+#ButtonParent{
+margin: auto
+   
+}
+
+#Text1{
+position: relative;
+top: 0px;
+    margin: auto;
+    width: 60%;
+font-size: x-large;
+    padding: 10px;
+
+}
+
+#Arrowndown{
+position: relative;
+height: 50px;
+width: 50px;
+top: -740px;
+left: 10%;
+}
+
+#Information {
+    position: relative;
+top: -640px;
+background-color: black;
+height: 190px;
+width: 300px;
+left: -103px;
+
+opacity: 90%;
+
+z-index: 4;
+
+
+
+
+}
+
+
+
+#ImageWheel {
+    vertical-align: top;
+
+    height: 400px;
+    width: 400px;
+    margin-bottom: 500px;
+ margin-left: -120px;
+
+
+
+}
+
+#WheelOfFortune
+{
+position: relative;
+top: -40px;
+
+}
+
+#BoardShow
+{
+    position: relative;
+    top: -100px;
+    left: -160px;
+    height: 390px;
+    width: 390px;
+ animation: Lightanimation 10s infinite;
+  -webkit-animation: Lightanimation 10s infinite;
+}
+
+@keyframes Lightanimation {
+from {src: url(Asset/light_1.png);}
+
+to {src: url(Asset/light_2.png);}
+}
+
+@keyframes InvisibleToVisible {
+
+    
+   0% {opacity: 0;}
+
+   100% {opacity: 1;}
+}
+
+@keyframes backintoposition {
+
+    
+0% {transform: rotate(var(--change1));}
+}
